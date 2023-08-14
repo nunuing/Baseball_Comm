@@ -17,9 +17,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-import BaseballComm.views
+from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', BaseballComm.views.index, name='index'),
+    path('', views.home_req, name='home_req'),
 ]

@@ -1,4 +1,4 @@
 from django.shortcuts import render
 
-def index(request):
-    return render(request, 'BaseballApp/index.html')
+def home_req(request):
+    return render(request, 'BaseballApp/home.html')
