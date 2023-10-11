@@ -4,12 +4,15 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>HOME</title>
+        <style>
+            
+        </style>
     </head>
     <body>
+        {% load static %}
         <h1>
-            <div id="title" style="background-color:skyblue">
-                {% load static %}
-                <img src = "{% static 'images/cloud.png' %}" alt = "cloud image">
+            <div id="title" style="background-color:#75C2F6">
+                <img id = "title_bar" src = "{% static 'images/title_bar.png' %}" alt = "title">
             </div>
         </h1>
     </body>
